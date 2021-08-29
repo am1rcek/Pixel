@@ -511,3 +511,17 @@ footer{
     background-size: cover;
     margin-right: 8px;
 }
+.footer-items a:hover{
+    transition: all 0.5s ease;
+    color: #00BAFC;
+}
+.column a:hover{
+    transition: all 0.5s ease;
+    color: #00BAFC;
+}
+.footer-items a:active{
+    opacity: 0.6;
+}
+.column a:active{
+    opacity: 0.6;
+}
