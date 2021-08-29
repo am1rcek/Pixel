@@ -502,6 +502,7 @@ footer{
     background-size: cover;
     margin-right: 8px;
 }
+
 .instagram::before{
     content: "";
     background-image: url("../img/instagram.svg");
