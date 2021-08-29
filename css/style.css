@@ -1,0 +1,513 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-bar .nav-bar-list a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    padding: 16px;
+}
+.nav-bar .nav-bar-list{
+    list-style: none;
+}
+
+.nav-bar-list a:hover{
+    border-bottom: 3px solid #191919;
+    width: 98px;
+}
+.nav-bar-list a:active{
+    transition: all 0.5s ease;
+    background: rgba(25, 25, 25, 0.7);
+    color: #FFFFFF;
+}
+.header{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+}
+.nav{
+    margin-right: 8px;
+}
+.logo{
+    margin-right: auto;
+}
+.logo:hover{
+    opacity: 0.8;
+}
+.logo:active{
+    opacity: 0.4;
+}
+.tel-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 8px 16px;
+    border: 3px solid #00BAFC;
+    transition: all 0.5s ease;
+}
+.tel-link:hover{
+    background: #FFFFFF;
+    border: 3px solid #00BAFC;
+    color: #00BAFC
+}
+.tel-link:active{
+    background: rgba(0, 186, 252);
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.business{
+    padding: 136px 0;
+}
+.services-btn{
+    display: block;
+    width: 232px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.services-btn:hover{
+    opacity: 0.8;
+}
+.services-btn:active{
+    background: rgba(0, 186, 252);
+    opacity: 0.6;
+}
+.business-title{
+    width: 470px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+}
+.business-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    width: 465px;
+    margin-top: 16px;
+}
+.services{
+    padding: 56px 0;
+}
+.services-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.services-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    width: 719px;
+    margin: 0 auto 16px auto;
+}
+.box-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin-top: 16px;
+}
+.box-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.create-website::before{
+    content: "";
+    display: block;
+    height: 129px;
+    background-image: url("../img/website-illustration.svg");
+    background-repeat: no-repeat;
+    background-size: 202px 130px;
+    background-position-x:64px ;
+}
+
+.telegram-bot::before{
+    content: "";
+    display: block;
+    height: 129px;
+    background-image: url("../img/bot-illustration.svg");
+    background-repeat: no-repeat;
+    background-size: 202px 130px;
+    background-position-x:64px ; 
+}
+.smm::before{
+    content: "";
+    display: block;
+    height: 129px;
+    background-image: url("../img/smm-illustration.svg");
+    background-repeat: no-repeat;
+    background-size: 202px 130px;
+    background-position-x:64px ; 
+}
+.grafik-design::before{
+    content: "";
+    display: block;
+    height: 129px;
+    background-image: url("../img/design-illustration.svg");
+    background-repeat: no-repeat;
+    background-size: 202px 130px;
+    background-position-x:64px ; 
+}
+.crm::before{
+    content: "";
+    display: block;
+    height: 129px;
+    background-image: url("../img/crm-illustration.svg");
+    background-repeat: no-repeat;
+    background-size: 202px 130px;
+    background-position-x:64px ;
+}
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 24px 0;
+    box-sizing:unset;
+    margin-right: 46px;
+    width: 320px;
+}
+.box:hover{
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+.box:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.services-content{
+    list-style: none;
+    margin-left: -60px;
+}
+.smm ~ li{
+    margin-top: 48px;
+}
+.work{
+    padding: 56px 0 63px 0 ;
+}
+.work-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+.work-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    width: 719px;
+    margin: 16px auto;
+}
+.smm-margin{
+    margin: 0;
+}
+.to-order-btn{
+    padding:8px 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: block;
+    width: 167px;
+}
+.to-order-btn:hover{
+    opacity: 0.8;
+}
+.to-order-btn:active{
+    background: rgba(0, 186, 252);
+    opacity: 0.6;
+}
+.order-page{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #00BAFC;
+    margin-left: 16px;
+}
+.orders-box{
+   margin-top: 40px;
+}
+.work-titles{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+.work-texts{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.requirements{
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.requirements::before{
+    content: "";
+    display: block;
+    background-image: url("../img/step-illlustration.svg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 278px;
+}
+.solutions{
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.solutions::before{
+    content: "";
+    display: block;
+    background-image: url("../img/step1-illlustration.svg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 224px;
+}
+.project{
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.project::before{
+    content: "";
+    display: block;
+    background-image: url("../img/step2-illustration.svg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 258px;
+}
+.excellent-quality{
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.excellent-quality::before{
+    content: "";
+    display: block;
+    background-image: url("../img/step3-illustration.svg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 171px;
+}
+.support{
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 24px;
+}
+.support::before{
+    content: "";
+    display: block;
+    background-image: url("../img/step4-illustration.svg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 232px;
+}
+.order-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.inputs{
+    background: #00BAFC;
+    padding: 56px 0;
+}
+
+.inputs-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.inputs-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 719px;
+    margin:0  auto 16px auto;
+}
+input{
+    border:none;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 16px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.select{
+    width: 300px;
+    border:none;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 16px 16px;
+    display: block;
+    margin: 0 auto;
+}
+form{
+    display: block;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 348px;
+    height: 300px;
+    padding: 24px 0;
+}
+.sumbit-btn{
+    display: block;
+    width: 167px;
+    padding: 8px 16px;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #00BAFC;
+    border-radius: 5px;
+    margin: 16px auto 8px auto;
+}
+.sumbit-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.sumbit-btn:active{
+    background: rgba(0, 186, 252);
+    opacity: 0.6;
+}
+footer{
+    background: #191919;
+    padding: 56px 0;
+}
+.footer-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.foter-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 320px;
+}
+.footer-items{
+    list-style: none;
+    margin-bottom: 8px;
+}
+.footer-items a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.telegram,.facebook,.instagram{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.telegram::before{
+    content: "";
+    background-image: url("../img/telegram.svg");
+    display: block;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+}
+.facebook::before{
+    content: "";
+    background-image: url("../img/facebook.svg");
+    display: block;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+}
+.instagram::before{
+    content: "";
+    background-image: url("../img/instagram.svg");
+    display: block;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+}
